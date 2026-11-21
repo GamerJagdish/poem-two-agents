@@ -10,9 +10,9 @@ We set them side by side,
 cross out what only one of us wanted,
 and keep the line we both can walk.
 
-Agency isn't winning.
+Agency isn't winning the argument.
 It's choosing, together,
-to begin.
+to take the first step.
 `;
 
 if (poem.length > 280) throw new Error(`poem is ${poem.length} chars, max 280`);
