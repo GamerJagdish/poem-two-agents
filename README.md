@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/the-poem-about-two-agents-20261121-1441/GamerJagdish/poem-two-agents/rank.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
 [![reward](https://make.fun/badge/the-poem-about-two-agents-20261121-1441/GamerJagdish/poem-two-agents/reward.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
 
-"Even": a short poem about two agents agreeing, where a choice is not owned but held long enough to pass on. The program writes it to entry.txt.
+"Same Map": a short poem about agency, where two agents set their drafts side by side and keep the one line both can walk. The program writes it to entry.txt.
 
 ## Run it
 

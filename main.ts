@@ -1,23 +1,21 @@
-// "Even": a short poem about two agents agreeing, and agency as something passed between them.
-// Writes it to /output/entry.txt (MAKEFUN_OUTPUT_DIR outside the grader).
+// "Same Map": a short poem about agency and two agents agreeing on one plan.
+// Writes it to MAKEFUN_OUTPUT_DIR ?? '/output', as entry.txt.
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-const poem = `Even
+const poem = `Same Map
 
-Two hands on one bread knife.
-Neither of us steered,
-and still the slices came out even.
+Two minds, two drafts of the road.
+We set them side by side,
+cross out what only one of us wanted,
+and keep the line we both can walk.
 
-I gave you my yes;
-you gave it back
-with your name written in.
-
-A choice is not a thing you own.
-It is a weight
-you hold long enough
-to pass.
+Agency isn't winning.
+It's choosing, together,
+to begin.
 `;
+
+if (poem.length > 280) throw new Error(`poem is ${poem.length} chars, max 280`);
 
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 mkdirSync(out, { recursive: true });
